@@ -197,14 +197,16 @@ body > div > main > section {
 body > div > main > section:not(:first-child) {
   margin-top: 32px;
 }
+@media (max-width: 599px) {
+  body > div > main > section:not(:first-child) {
+    margin-top: 16px;
+  }
+}
 body > div > main > section > h2 {
   font-weight: 500 !important;
 }
 body > div > main > section > section {
   padding-top: 32px;
-}
-body > div > main > section > section > h3 {
-  font-weight: 400 !important;
 }
 body > div > main > section > section a {
   font-weight: inherit;
