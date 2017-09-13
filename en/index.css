@@ -17,7 +17,7 @@ a {
   /* https://github.com/postcss/autoprefixer/issues/558 */
   word-wrap: break-word;
 }
-mdl-shadow--2dp {
+.mdl-shadow--2dp {
   z-index: 2;
 }
 .mdl-shadow--3dp {
@@ -39,18 +39,22 @@ mdl-shadow--2dp {
   z-index: 24;
 }
 .mdi-18px {
+  width: 18px;
   height: 18px;
   line-height: 18px;
 }
 .mdi-24px {
+  width: 24px;
   height: 24px;
   line-height: 24px;
 }
 .mdi-36px {
+  width: 36px;
   height: 36px;
   line-height: 36px;
 }
 .mdi-48px {
+  width: 48px;
   height: 48px;
   line-height: 48px;
 }
